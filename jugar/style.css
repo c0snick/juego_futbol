@@ -1,0 +1,96 @@
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: #807b7b;
+    margin-left: 550px; 
+    width: 750px;
+    height: 700px;
+    border-radius: 30px;
+  }
+
+svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg); 
+}
+
+#respuesta{
+    text-align: center;
+    padding: 10px;
+}
+
+.border-element {
+    margin-top: 20px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#saltar {
+    margin-left: 1300px;
+}
+.border-element h1{
+    color:black;
+    text-align: center;
+}
+
+#pregunta {
+    width: 500px;
+    padding: 60px;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content p{
+    color: black;
+    align-self: center;
+}
+
+.popup-buttons button {
+    margin-inline: 45px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-yes {
+    background: green;
+    color: white;
+}
+
+.btn-no {
+    margin-left: 150px;
+    background: red;
+    color: white;
+}

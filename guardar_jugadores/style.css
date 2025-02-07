@@ -1,0 +1,52 @@
+#formulario {
+    margin-top: 75px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: #807b7b;
+    margin-left: 500px;
+    width: 750px;
+    border-radius: 30px;
+  }
+
+  .container {
+    margin-top: 75px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: #807b7b;
+    margin-left: 500px; 
+    width: 750px;
+    border-radius: 30px;
+  }
+
+  #boton {
+    margin-left: 400px;
+  }
+  
+  #boton button{
+    padding-inline: 50px;
+    display: flex;
+    margin-left: 150px;
+  }
+  
+  
+  .crear_nombre {
+    font-size: 50px;
+  }
+  
+  .crear_nombre input {
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+  }
+  
+
+  #jugadores {
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+ #jugadores div {
+    margin-inline: 90px;
+  }

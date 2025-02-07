@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tres Estrellas</title>
+  <link rel="stylesheet" href="../base.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="../../../public/img/logo.png" sizes="32x32" />
+</head>
+<body>
+  <header>
+    <div class="header">
+      <img src="../../../public/img/logo.png" class="logo" />
+      <nav>
+        <ul class="redirecciones">
+          <li class="direcciones">
+            <a class="link" href="http://localhost/">Inicio</a>
+          </li>
+          <li class="direcciones">
+            <a class="link" href="http://localhost/src/pages/crear_torneo/"
+              >Crear competencia</a
+            >
+          </li>
+          <li class="direcciones">
+            <a class="link" href="http://localhost/src/pages/FAQ/">Preguntas frecuentes</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>    
+  
+    <div class="container" id = "prueba">
+      <br><br>
+        <h1 id = "nombre_jugador">Jugador 1</h1>
+        <h1 id = "sigue"></h1>
+        <p id = "pregunta"></p>
+        <svg id="svg" viewBox="-150 -150 300 300"></svg>
+        
+        <div id="popup">
+          <div class="popup-content">
+              <p id = "respuesta-incorrecta"></p>
+              <div class="popup-buttons">
+                  <button class="btn-yes" onclick="seleccionarOpcion('Sí')">Sí</button>
+                  <button class="btn-no" onclick="seleccionarOpcion('No')">No</button>
+              </div>
+          </div>
+          
+      </div>
+        
+    </div>
+    <button class = "botones" id = "saltar" onclick="pasar()">Saltar</button>
+
+    <script src="juego.js"></script>
+
+</body>
+</html>
