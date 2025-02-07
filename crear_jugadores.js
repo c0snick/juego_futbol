@@ -1,4 +1,4 @@
 function actualizar(){
     let cantidad = document.getElementById("miSelect")
-    window.location.href = `file:///C:/Users/nico_/OneDrive/Escritorio/rosco/guardar_jugadores/index.html?jugadores=${cantidad.value}`;
+    window.location.href = `https://c0snick.github.io/juego_futbol/guardar_jugadores?jugadores=${cantidad.value}`;
 }

@@ -23,6 +23,6 @@ function volver(){
     for (let i = 0; i < nombres.length; i++) {
         jugadores.push(nombres[i].value);
     }
-    window.location.href = `file:///C:/Users/nico_/OneDrive/Escritorio/rosco/jugar/index.html?jugadores=${jugadores}`
+    window.location.href = `https://c0snick.github.io/juego_futbol/jugar?jugadores=${jugadores}`
 }
 agregar_jugador()
